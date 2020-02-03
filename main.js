@@ -80,11 +80,11 @@ $("h1").on("click", function(){
 
 //------------------------------------------ toggle example-------------------------------------------------
 
-// $(document).ready(function(){
-//     $("button").click(function(){
-//       $("p").toggle();
-//     });
-//   });
+$(document).ready(function(){
+    $("button").click(function(){
+      $(".tenor-gif-embed").toggle();
+    });
+  });
 
 
 //------------------------------------------ progress bar example-------------------------------------------------

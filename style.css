@@ -1,4 +1,13 @@
 
+h1{
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+
+}
+
+
 
 #features{
     display: none;
@@ -6,7 +15,7 @@
 
 }
 
-#example1{
+/* #example1{
 
     background:#98bf21;
     height:100px;
@@ -18,7 +27,7 @@
 
     height: 50px;
     width: 100px;
-}
+} */
 
 
 /* #example2{
