@@ -4,7 +4,7 @@
 $("h1").on("click", function(){
 
 
-    $("#features").slideToggle(3000)
+    $("#features").slideToggle(5000)
 
 
 })
@@ -13,42 +13,42 @@ $("h1").on("click", function(){
 
 //----------------------------------------------animated example-----------------------------------------
 // $("#button1").click(function () {
-//     $("#example1").animate({ left: '250px' });
+//     $("#example1").animate({ left: '250px', 5000 });
 
 // });
 //------------------------------------------ multiple function + finish + queue animated example---------------------------
 
-//     $("#button2").click(function(){
-//       let div = $("#example2");
-//       startAnimation();
-//       function startAnimation(){
-//         div.animate({height: 300}, "slow")
-//         .animate({width: 300}, "slow")
-//         .css("background-color", "red") 
-//         .animate({height: 100}, "slow")
-//         .animate({width: 100}, "slow"/*, startAnimation*/);
-//       } 
-//     });
+  //   $("#button2").click(function(){
+  //     let div = $("#example2");
+  //     startAnimation();
+  //     function startAnimation(){
+  //       div.animate({height: 300}, "slow")
+  //       .animate({width: 300}, "slow")
+  //       .css("background-color", "red") 
+  //       .animate({height: 100}, "slow")
+  //       .animate({width: 100}, "slow");
+  //     } 
+  //   });
 
-//     $("#button3").click(function(){
+  //   $("#button3").click(function(){
 
-//     $("#example2").stop()
-
-
-//     // $("#example2").finish()
-
-//     showIt()
+  //   $("#example2").stop()
 
 
-//     })
+  //   // $("#example2").finish()
+
+  //   showIt()
 
 
-//   function showIt() {
-//     let n = $("#example2").queue( "fx" ); 
-//         console.log(n);
+  //   })
+
+
+  // function showIt() {
+  //   let n = $("#example2").queue( "fx" ); 
+  //       console.log(n);
         
     
-//   }
+  // }
 
 
 
@@ -69,11 +69,11 @@ $("h1").on("click", function(){
 //------------------------------------------ fade example-------------------------------------------------
 
 // $(document).ready(function(){
-//     $("#hide").click(function(){
-//       $("p").hide();
+//     $("#h222").click(function(){
+//       $(".tenor-gif-embed").hide();
 //     });
 //     $("#show").click(function(){
-//       $("p").show();
+//       $(".tenor-gif-embed").show();
 //     });
 //   });
 
